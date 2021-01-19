@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const connectDb = require('./database/db');
-const path = require('path');
+var path = require('path');
 require('dotenv').config();
 
 const app = express();
